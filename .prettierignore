@@ -1,0 +1,6 @@
+# Ignore artifacts:
+coverage
+
+
+# Ignore all files node_modules:
+node_modules
