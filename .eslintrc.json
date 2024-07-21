@@ -18,6 +18,7 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["react-refresh", "@typescript-eslint", "react", "@stylistic/js"],
   "rules": {
+    "@next/next/no-img-element": "off",
     "@stylistic/js/no-multi-spaces": "warn",
     "@stylistic/js/no-trailing-spaces": "error",
     "@stylistic/js/jsx-quotes": ["error", "prefer-single"],
