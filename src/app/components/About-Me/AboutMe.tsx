@@ -2,14 +2,16 @@ export const AboutMe = () => {
   return (
     <div
       id='about'
-      className='grid grid-flow-row auto-rows-max justify-items-center content-evenly p-2 bg-amber-50 rounded-lg text-black text-lg md:text-xl xl:w-2/3'
+      className='grid grid-flow-row auto-rows-max justify-items-center content-evenly p-2 bg-amber-50 rounded-lg text-black text-lg md:text-xl lg:grid-cols-aboutMe-lg 2xl:w-11/12 3xl:w-2/3 '
     >
       <img
-        className='order-1 md:order-2 rounded-full w-40 h-40 md:w-18 md:h-18 p-2'
+        className='order-1 lg:order-2 rounded-full w-40 h-40 md:w-18 md:h-18 lg:rounded-[4rem] lg:mt-6 lg:w-auto lg:h-auto lg:max-w-[300px] xl:mt-2 p-2'
         src='/img/about-me/profile.png'
         alt='Link a mi perfil de LinkedIn'
       />
-      <h1 className='order-2 md:order-1 text-6xl font-bold p-2'>Sobre mí</h1>
+      <h1 className='order-2 lg:order-1 lg:col-span-full text-6xl font-bold p-2'>
+        Sobre mí
+      </h1>
       <section className='order-3 flex flex-col font-semibold text-md text-justify p-1'>
         <p className='indent-8 p-2'>
           Soy una persona curiosa, que le gusta estar siempre investigando,

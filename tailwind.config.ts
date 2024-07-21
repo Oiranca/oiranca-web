@@ -16,6 +16,8 @@ const config: Config = {
       boxShadow: {
         navShadow: '0px 0px 10px #fdfdfd',
       },
+      gridTemplateColumns: { 'aboutMe-lg': 'auto,1fr' },
+      screens: { '3xl': '1920px' },
     },
   },
   plugins: [],
