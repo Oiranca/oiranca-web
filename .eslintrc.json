@@ -18,7 +18,6 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["react-refresh", "@typescript-eslint", "react", "@stylistic/js"],
   "rules": {
-    "eslint-disable-next-line": "off",
     "@next/next/no-img-element": "off",
     "@stylistic/js/no-multi-spaces": "warn",
     "@stylistic/js/no-trailing-spaces": "error",
