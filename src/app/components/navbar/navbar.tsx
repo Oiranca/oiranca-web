@@ -1,4 +1,4 @@
-import { SocialNetworks } from '@/app/components/navbar/components/Social-Networks/SocialNetworks';
+import { SocialNetworks } from './components/Social-Networks/SocialNetworks';
 
 export const Navbar = () => {
   return (
