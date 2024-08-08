@@ -14,7 +14,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       boxShadow: {
-        navShadow: '0px 0px 10px #fdfdfd',
+        navShadow: '0px 0px 10px #3E5B46',
       },
       gridTemplateColumns: { 'aboutMe-lg': 'auto,1fr' },
       screens: { '3xl': '1920px' },
