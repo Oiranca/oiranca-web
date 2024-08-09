@@ -4,10 +4,10 @@ export const SocialNetworks = () => {
   const github = '/img/social/github_logo.png';
 
   return (
-    <section className='grid grid-cols-3 justify-items-center content-around gap-x-6 gap-y-2 p-2 w-fit '>
+    <section className='grid grid-cols-3 justify-items-center content-around gap-x-6 gap-y-2 p-2 w-fit h-fit '>
       <a
         href='https://www.linkedin.com/in/samuel-romero-arbelo/'
-        className='group rounded-lg border border-transparent py-4 transition-colors'
+        className='group rounded-lg border border-transparent sm:py-4 transition-colors'
         target='_blank'
         rel='noopener noreferrer'
       >
@@ -19,7 +19,7 @@ export const SocialNetworks = () => {
       </a>
       <a
         href='https://x.com/Oiranca'
-        className='group rounded-lg border border-transparent py-4 transition-colors'
+        className='group rounded-lg border border-transparent sm:py-4 transition-colors'
         target='_blank'
         rel='noopener noreferrer'
       >
@@ -31,7 +31,7 @@ export const SocialNetworks = () => {
       </a>
       <a
         href='https://github.com/Oiranca'
-        className='group rounded-lg border border-transparent py-4 transition-colors'
+        className='group rounded-lg border border-transparent sm:py-4 transition-colors'
         target='_blank'
         rel='noopener noreferrer'
       >
