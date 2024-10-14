@@ -18,8 +18,11 @@
 /*}*/
 
 body {
-    background: rgb(255,248,225);
-    background: linear-gradient(0deg, rgba(255,248,225,1) 15%, rgba(209,250,229,1) 100%);
+    /*background: rgb(255,248,225);*/
+    /*background: linear-gradient(0deg, rgba(0,0,0,1) 83%, #93c5fd 100%);*/
+    /*background: rgb(2,0,36);*/
+    /*background: linear-gradient(-5deg, rgba(2,0,36,1) 60%, rgba(33,61,105,1) 90%);*/
+    background: linear-gradient(-10deg, black,85%, blue);
 }
 
 @layer utilities {
